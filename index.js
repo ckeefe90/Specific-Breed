@@ -16,6 +16,7 @@ function getDogImage() {
 }
 
 function displayResults(responseJson) {
+    $('.results').children().remove();
     $('.results').append(
         `<img src="${responseJson.message}">`
     )
