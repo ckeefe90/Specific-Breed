@@ -1,7 +1,7 @@
 'use strict';
 
 function getDogImage() {
-    const breed = $('#breed').val();
+    const breed = $('#breed').val().toLowerCase();
     fetch(`https://dog.ceo/api/breed/${breed}/images/random`)
         .then(response => {
             if (response.ok)

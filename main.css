@@ -2,3 +2,7 @@ body {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
 }
+
+#submit:hover {
+    cursor: pointer;
+}
